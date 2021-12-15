@@ -1,4 +1,4 @@
-package TT2;
+package testting.TT1;
 
 public class AbsoluteNumberCalculator {
     public static int findAbsolute(int number) {

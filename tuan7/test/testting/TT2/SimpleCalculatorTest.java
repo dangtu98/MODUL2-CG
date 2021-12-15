@@ -1,13 +1,13 @@
-package TT1;
+package testting.TT2;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class SimpleCalculatorTest {
+class SimpleCalculatorTest {
     @Test
-    @DisplayName("Testing add 0 + 0 ")
+    @DisplayName("Testing add 0 + 0")
     public void testAdd0And0() {
         int first = 0;
         int second = 0;
@@ -93,4 +93,5 @@ public class SimpleCalculatorTest {
         int result = SimpleCalculator.sub(first, second);
         assertEquals(expected, result);
     }
+
 }
